@@ -1,0 +1,55 @@
+ENVY HAIR CUT DESIGN: DEMO WEBSITE
+How to open it on your laptop
+
+You don't need to install anything. Stay connected to the internet, because
+the photos, fonts and map load online.
+
+
+EASIEST WAY (Mac or Windows)
+
+1. Unzip the file. On a Mac, double-click the zip.
+2. Open the "envy-website" folder.
+3. Double-click index.html.
+
+The site opens in your web browser.
+
+
+IF THE PAGE LOOKS WRONG, RUN IT AS A LOCAL SERVER
+
+On a Mac:
+1. Open Terminal (press Cmd + Space, type Terminal, press Return).
+2. Type "cd " with a space after it, drag the envy-website folder into the
+   Terminal window, then press Return.
+3. Run this:
+
+   python3 -m http.server 8000
+
+   If the Mac offers to install developer tools, accept and try again.
+
+4. Open http://localhost:8000 in your browser.
+5. To stop it, click the Terminal window and press Control + C.
+
+On Windows:
+1. Open the envy-website folder, click the address bar, type cmd, press Enter.
+2. Run this (Python must be installed):
+
+   python -m http.server 8000
+
+3. Open http://localhost:8000 in your browser.
+4. To stop it, press Ctrl + C in that window.
+
+
+GOOD TO KNOW
+
+- This is a demo. Bookings don't go to the salon: WhatsApp opens and asks you
+  to pick a contact, so don't send it to anyone unless you mean to.
+- Prices are placeholders.
+- Most photos are stock images.
+- To try the phone layout, make the browser window narrow.
+
+
+TO EDIT IT
+
+- Shop details, prices, hours and reviews: js/config.js
+- English and Bahasa Melayu text: js/i18n.js
+- Colours and fonts: top of css/styles.css
